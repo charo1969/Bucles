@@ -15,29 +15,23 @@ public class Ejercicio12 {
 		
 		System.out.println("Introduce un numero: ");
 		int num = teclado.nextInt();
+		int suma=0;
 		
-		int suma = 0;
-		
-		int res=0;
-		
-		for (int i =2; i<=num; i++) {
-			suma = i/2;
+		for (int i =1; i<num; i++) { //i son los divisores.Se divide desde el 1 hasta num-1
+			if(num % i ==0) {
+				suma = suma +i;
+				
+			}
+				
+		}
+		if (suma == num) {
+			System.out.println("El número  es perfecto");
+		}else {
+			System.out.println("El número NO es perfecto");
+		}
 			
-			for(int j =1;j<=suma;j++) {
-				res =i % j;
-				
-				if(res == 0) {
-					num=num+j;
-				}
-				if(num == i) {
-					System.out.println("El número "+i +" es perfecto");
-				}
-			}
-				
-			}
-				
-			}
-		
+		}
+			
 	}
 
 
