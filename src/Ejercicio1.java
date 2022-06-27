@@ -15,11 +15,11 @@
 				Scanner teclado = new Scanner(System.in);
 				
 				System.out.println("tablas de multiplicar");
-				System.out.println("Introduce un número del 1 al 10");
+				System.out.println("Introduce un numero del 1 al 10");
 				int num = teclado.nextInt();
 
 				while (num<1 || num>10 ) {
-					System.out.println("Zoquete, Introduce un número del 1 al 10");
+					System.out.println("Zoquete, Introduce un numero del 1 al 10");
 					num = teclado.nextInt();
 				}
 				for (int i=1;i<=10; i++) {

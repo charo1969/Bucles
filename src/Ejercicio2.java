@@ -14,7 +14,7 @@
 				
 				int num=0;
 				while(num<1 || num>10) {
-					System.out.println("Introduce un número del 1 al 10");
+					System.out.println("Introduce un numero del 1 al 10");
 					 num = teclado.nextInt();
 					
 				}

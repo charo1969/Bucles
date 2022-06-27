@@ -10,27 +10,31 @@ public class Ejercicio7 {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		
-		System.out.println("Números Multiplos de 7");
+		System.out.println("Numeros Multiplos de 7");
 		
-		System.out.println("introduzca el primer número: ");
+		System.out.println("introduzca el primer numero: ");
 		int num1 = teclado.nextInt();
 		
-		System.out.println("introduzca el segundo número: ");
+		System.out.println("introduzca el segundo numero: ");
 		int num2 = teclado.nextInt();
 		
-		int multiplo7;
+		int suma =0;
+		int contador =0;
 	
 		
 		for (int i = num1; i<=num2; i++) {
 			
-			System.out.println(i);
-			multiplo7=i*7;
-			System.out.println("Los multiplos de 7 comprendidos entre "+num1+" y "+num2+" son "+multiplo7 );
 			
+			if(i%7==0) {
+				suma = suma + 1 ;
+				
+				}
 			
-		}
-		
+			contador ++;
 
+			}
+		
+		System.out.println("la suma de los multiplos de 7 son "+suma);
 	}
 
 }

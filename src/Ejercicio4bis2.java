@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author charo
  *
  */
-public class Ejercicio4 {
+public class Ejercicio4bis2 {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
@@ -20,25 +20,24 @@ public class Ejercicio4 {
 		int num2 = teclado.nextInt();
 		
 		// creamos dos variables para minimo y maximo:
-		int minimo;
-		int maximo;
+		int minimo =num1;
+		int maximo = num2;
 		
 		//ordenamos los valores de mayor a menor si no estan en orden.
-		if(num1 < num2) {
-			minimo = num1;
-			maximo = num2;
-		}else {
+		if(num1 > num2) {
 			minimo = num2;
 			maximo = num1;
-			
+		}
+		if (minimo%2==0) {
+			minimo++;
 		}
 		
 		
 		// ahora realizamos el bucle para hacer cálculos y mostrar en pantalla
-		for(int i = minimo; i<maximo; i++) {
-			if(i%2 != 0) {
+		for(int i = minimo; i<=maximo; i=i+2) {
+			
 				System.out.println(i);
-			}
+			
 		}
 		
 		

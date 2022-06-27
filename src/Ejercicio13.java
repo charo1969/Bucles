@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * 13.Algoritmo que pida un número natural y determine si es primo o no.
+ * 13.Algoritmo que pida un numero natural y determine si es primo o no.
  * @author charo
  *
  */
@@ -10,7 +10,7 @@ public class Ejercicio13 {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		
-		System.out.println("Números Primos");
+		System.out.println("Numeros Primos");
 		
 		System.out.println("Introduce un numero: ");
 		int num = teclado.nextInt();
@@ -24,11 +24,11 @@ public class Ejercicio13 {
 			}
 		}
 		if(primo!=2) {
-			System.out.println("El número "+num+" No es primo");
+			System.out.println("El numero "+num+" No es primo");
 			
 			
 		}else {
-			System.out.println("El número "+num+" es primo");
+			System.out.println("El numero "+num+" es primo");
 			
 			
 		}

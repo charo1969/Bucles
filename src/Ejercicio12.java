@@ -11,7 +11,7 @@ public class Ejercicio12 {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		
-		System.out.println("Números Perfectos");
+		System.out.println("Numeros Perfectos");
 		
 		System.out.println("Introduce un numero: ");
 		int num = teclado.nextInt();
@@ -25,9 +25,9 @@ public class Ejercicio12 {
 				
 		}
 		if (suma == num) {
-			System.out.println("El número  es perfecto");
+			System.out.println("El numero  es perfecto");
 		}else {
-			System.out.println("El número NO es perfecto");
+			System.out.println("El numero NO es perfecto");
 		}
 			
 		}
