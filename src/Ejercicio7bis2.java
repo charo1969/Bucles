@@ -5,7 +5,7 @@ import java.util.Scanner;
  * @author charo
  *
  */
-public class Ejercicio7 {
+public class Ejercicio7bis2 {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
@@ -18,24 +18,23 @@ public class Ejercicio7 {
 		System.out.println("introduzca el segundo numero: ");
 		int num2 = teclado.nextInt();
 		
-		//int suma =0;
+		
 		int contador =0;//contador
 	
 		
-		for (int i = num1; i<=num2; i++) {
+		while(num1%7==0) {
+				num1++;
+			}
 			
-			
-			if(i%7==0) {
-				//suma = suma + 1 ;
+			for(int i=num1; i<num2;i=i+7) {
 				contador ++;
-				
-				}
-			
-			
-
 			}
 		
 		System.out.println("la suma de los multiplos de 7 son "+contador);
+		
+		System.out.println("Hay %d divisores de 7 son ",contador,num1,num2);
+		
+		
 	}
 
 }

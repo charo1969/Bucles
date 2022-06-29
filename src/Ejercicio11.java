@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 /**
- * 10. Algoritmo que escriba la tabla de multiplicar usando esquemas while.
+ * 11. Algoritmo que escriba la tabla de multiplicar usando esquemas do while.
  * @author charo
  *
  */
-public class Ejercicio10 {
+public class Ejercicio11 {
 
 	public static void main(String[] args) {
 
@@ -14,22 +14,20 @@ public class Ejercicio10 {
 		
 		int num=1;
 		int i=1;
-		while(num<=10) {
+		do {
 			i=1;
-			while( i<=10){
+			do{
 				System.out.printf("%d x %d = %d\n",num,i,num*i);
-				i++;
+				i ++;
 				
-			}
+			}while( i<=10);
 			num++;
-		}
+		}while(num<=10);
 			
 			 
 				
-	}
-	
-
-}
+			}
+		}
 
 	
 

@@ -11,9 +11,9 @@ public class Ejercicio9 {
 
 		System.out.println("Tablas de multiplicar con for");
 		
-		for(int num =1; num<=10;num++) {
-			for(int i=1;i<=10;i++) {
-				System.out.printf("%d x %d = %d\n",num,i,num*i);
+		for(int tabla =1; tabla<=10;tabla++) {//primer bucle
+			for(int i=1;i<=10;i++) {//segundo bucle
+				System.out.printf("%d x %d = %d\n",tabla,i,tabla*i);
 			}
 		}
 

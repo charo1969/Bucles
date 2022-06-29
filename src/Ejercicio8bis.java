@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author charo
  *
  */
-public class Ejercicio8 {
+public class Ejercicio8bis {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
@@ -29,11 +29,10 @@ public class Ejercicio8 {
 			divisor = divisor + 1;
 		}
 		*/
-		for(int i=1;i<=num/i;i++) {
+		for(int i=1;i<=num;i++) {
 			if (num % i == 0) {
 
 				System.out.println(i);
-				System.out.println(num/i);
 
 			}
 		}
