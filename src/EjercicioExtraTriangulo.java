@@ -1,7 +1,7 @@
 
 
 /*
- * ingresa una cantidad de líneas para el triangulo.
+ * ingresa una cantidad de líneas para el triangulo 
  */
 import java.util.Scanner;
 public class EjercicioExtraTriangulo {
@@ -13,7 +13,7 @@ public class EjercicioExtraTriangulo {
 				
 		for(int i=1;i<=fila;i++) { 
 			for(int j=1;j<=i;j++) {
-				System.out.printf(" * ");
+				System.out.printf("* ");
 			}
 			System.out.println();
 		}
